@@ -1,0 +1,27 @@
+section {
+    display: inline-block;
+    width: 70%;
+    height: 10%;
+    background-color: brown;
+}
+aside {
+    display: inline-block;
+    width: 29%;
+    height: 10%;
+    background-color: darkblue;
+}
+@media screen and (max-width:500px){
+
+    section {
+    display:block;
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+}
+aside {
+    display:block;
+    width: 100%;
+    height: 10%;
+    background-color: darkblue;
+}
+}
